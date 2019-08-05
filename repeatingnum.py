@@ -10,6 +10,7 @@ defprintFirstrepeating(arr,n)
        print(arr[Min])
    else:
        print("unique")
+arr = input("enter the number:")
 arr = list(map(int,input().split()))
 n = len(arr)
 printFirstrepeating(arr,n)
